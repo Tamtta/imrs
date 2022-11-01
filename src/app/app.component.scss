@@ -1,0 +1,56 @@
+.main-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+
+  .inner-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h1 {
+      font-size: 28px;
+      padding: 10px 20px;
+      font-weight: bolder;
+
+      &.highlight {
+        color: green;
+      }
+    }
+
+    .h1-img {
+      img {
+        display: block;
+        width: 250px;
+        height: 120px;
+      }
+    }
+  }
+
+  button {
+    width: 28px;
+    height: 22px;
+    background-color: none;
+    border: none;
+    margin-right: 15px;
+  }
+  .btnENG {
+    background-image: url(../assets/gb.svg);
+  }
+
+  .btnKA {
+    background-image: url(../assets/ge.svg);
+  }
+}
+
+@keyframes preloader {
+  100% {
+    transform: scale(2);
+  }
+}
+
+.inactive {
+  filter: grayscale(100%);
+}

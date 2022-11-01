@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: 50%;
+    background-color: antiquewhite;
+    // height: 50px;
+  }
+
+  .div-1 {
+    background-color: green;
+    h1 {
+      font-size: 100px;
+      font-weight: bolder;
+      text-align: start;
+      padding: 100px 0 100px 20px;
+      color: white;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: bolder;
+      text-align: start;
+      padding: 0 0 0 20px;
+      color: white;
+    }
+  }
+
+  .div-2 {
+    // background-color: blue;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
